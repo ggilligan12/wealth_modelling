@@ -10,8 +10,8 @@ class BankAccount:
         return self.value
 
     def pay_in(self, amount):
-    	self.value += amount
-    	return self.value
+        self.value += amount
+        return self.value
 
     def withdraw(self, amount):
         if amount > self.value:
